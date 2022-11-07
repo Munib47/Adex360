@@ -1,0 +1,103 @@
+.container1 {
+    /* position: relative; */
+    background-image: url('../assets/img/Asset 37.png');
+    background-repeat: no-repeat;
+    background-size: 800px 700px;
+    background-position: right;
+    height: 625px;
+    margin-bottom: 10rem;
+}
+
+.container1 .text {
+    z-index: 100;
+    /* padding-left: 5rem; */
+}
+
+.text h1 {
+    /* padding-top: 300px; */
+    font-size: 60px;
+}
+
+.link1 {
+    color: orange;
+    text-decoration: none;
+}
+
+.link1:hover {
+    color: orange;
+}
+
+.container1 .img {
+    position: absolute;
+    right: 0;
+    padding-top: 20rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container .text h1 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container1 {
+        flex-direction: column;
+        background-size: contain;
+    }
+
+    .container .text h1 {
+        font-size: 50px;
+        transform: translateY(145px);
+    }
+
+    .container1 {
+        margin-bottom: 5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container .text h1 {
+        font-size: 40px;
+        transform: translateY(120px);
+    }
+
+    .container1 {
+        /* height: 600px; */
+        margin-bottom: 5rem;
+    }
+
+    .container1 {
+        background-size: contain;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container .text h1 {
+        font-size: 25px;
+    }
+
+    .container1 {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container1 {
+        margin-bottom: 0;
+        height: 425px;
+    }
+
+    .container .text h1 {
+        font-size: 15px;
+    }
+
+    .container .text .earth {
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container .text h1 {
+        transform: translateY(100px);
+    }
+}

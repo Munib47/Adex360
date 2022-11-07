@@ -1,0 +1,191 @@
+.ninth {
+    /* position: relative; */
+    height: 400px;
+    background-image: url('../assets/img/Asset 17.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ninth .div {
+    padding-top: 3rem;
+    /* transform: translateY(-90px); */
+}
+
+.ninth .text {
+    font-size: 60px;
+    color: orange;
+    /* padding-top: 13rem; */
+}
+
+.ninth .div .div2 {
+    /* padding-top: 13rem; */
+    transform: translateX(-70px);
+}
+
+.ninth .div .div2 h6 {
+    font-size: 30px;
+    color: orange;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.ninth .div .div2 .btn {
+    background-color: rgb(255, 123, 0);
+    height: 80px;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .ninth .text {
+        font-size: 60px;
+        /* padding-top: 10rem; */
+        padding-left: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .ninth .text {
+        font-size: 40px;
+        /* padding-top: 5rem; */
+    }
+
+    .ninth .div .div2 {
+        /* padding-top: 8rem; */
+        transform: translateX(-30px);
+    }
+
+    .ninth {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .ninth .text {
+        font-size: 40px;
+        /* padding-top: 5rem; */
+    }
+
+    .ninth .div .div2 {
+        /* padding-top: 8rem; */
+        /* transform: translateX(60px); */
+    }
+
+    .ninth .div .div2 .btn {
+        height: 60px;
+        font-size: 30px;
+    }
+
+    .ninth .div .div2 h6 {
+        font-size: 25px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ninth .text {
+        font-size: 25px;
+        /* padding-top: 3rem; */
+    }
+
+    .ninth .div .div2 {
+        /* padding-top: 5rem;
+        transform: translateX(78px); */
+    }
+
+    .ninth .div .div2 .btn {
+        font-size: 22px;
+    }
+
+    .ninth .div .div2 h6 {
+        font-size: 20px;
+    }
+
+    .ninth {
+        height: 275px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ninth .text {
+        font-size: 19px;
+        /* padding-top: 3rem; */
+    }
+
+    .ninth .div .div2 {
+        /* padding-top: 3rem;
+        transform: translateX(100px); */
+    }
+
+    .ninth .div .div2 .btn {
+        height: 45px;
+        font-size: 12.5px;
+    }
+
+    .ninth .div .div2 h6 {
+        font-size: 15px;
+    }
+
+    .ninth {
+        height: 235px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .ninth .text {
+        font-size: 10px;
+        /* padding-top: 0; */
+    }
+
+    .ninth .div .div2 {
+        /* padding-top: 1rem;
+        transform: translateX(98px); */
+    }
+
+    .ninth .div .div2 .btn {
+        height: 37px;
+        font-size: 10px;
+    }
+
+    .ninth .div .div2 h6 {
+        font-size: 13px;
+    }
+
+    .ninth .smarrow {
+        width: 50%;
+        padding-left: 1rem;
+    }
+
+    .ninth {
+        height: 140px;
+    }
+
+    .ninth .div {
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .ninth .div .div2 .btn {
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .ninth .div {
+        padding-top: 1rem;
+    }
+
+    .ninth .text {
+        padding-top: 1rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .ninth .div .div2 .btn {
+        height: 20px;
+        font-size: 7px;
+    }
+
+    .ninth {
+        height: 115px;
+    }
+}

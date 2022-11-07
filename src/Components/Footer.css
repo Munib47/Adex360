@@ -1,0 +1,70 @@
+.main-footer {
+    padding: 5rem;
+}
+
+.logo1 {
+    width: 250px;
+    padding-bottom: 2rem;
+}
+
+.linkedin, .twitter, .youtube, .insta, .facebook  {
+    width: 30px;
+}
+
+.twitter, .youtube, .insta, .facebook {
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo1 {
+        padding-bottom: 0;
+    }
+
+    .main-footer {
+        padding: 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-footer {
+        padding: 2rem;
+    }
+
+    .linkedin, .twitter, .youtube, .insta, .facebook  {
+        width: 25px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-footer .left {
+        padding-bottom: 2rem;
+    }
+
+    .main-footer .left .logo1 {
+        width: 200px;
+    }
+
+    .linkedin, .twitter, .youtube, .insta, .facebook  {
+        width: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .main-footer {
+        padding: 0;
+    }
+
+    .main-footer .right a,
+    .main-footer .right p {
+        font-size: 15px;
+    }
+
+    .main-footer .right {
+        padding-bottom: 1rem;
+    }
+}

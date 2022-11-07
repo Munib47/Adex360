@@ -1,0 +1,66 @@
+.head {
+    font-family: 'Poppins', sans-serif;
+    height: 600px;
+}
+
+.head h1 {
+    font-size: 60px;
+}
+
+.link {
+    color: orange;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: orange;
+}
+
+@media only screen and (max-width: 1200px) {
+    .head h1 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .head h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .head h1 {
+        font-size: 40px;
+    }
+
+    .head {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .head h1 {
+        font-size: 25px;
+    }
+
+    .head {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .head {
+        height: 0;
+    }
+
+    .head h1 {
+        font-size: 15px;
+        width: 263px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .head h1 {
+        transform: translateX(-50px);
+    }
+}

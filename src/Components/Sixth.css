@@ -1,0 +1,178 @@
+.sixth {
+    position: relative;
+    height: 950px;
+}
+
+.sixth .div {
+    position: absolute;
+    left: 270px;
+}
+
+.sixth .div1 {
+    position: absolute;
+}
+
+.sixth .div1 h1 {
+    font-size: 100px;
+    transform: translateX(200px);
+}
+
+.sixth .div1 h4 {
+    font-size: 30px;
+    transform: translateX(150px);
+}
+
+@media only screen and (max-width: 1440px) {
+    .sixth .div {
+        left: 300px;
+    }
+
+    .sixth .div img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .sixth .div {
+        left: 300px;
+    }
+
+    .sixth .div img {
+        width: 70%;
+        transform: translateY(-20px);
+    }
+
+    .sixth .div1 h1 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .sixth .div {
+        left: 250px;
+    }
+
+    .sixth .div img {
+        width: 60%;
+        transform: translateY(-20px);
+    }
+
+    .sixth .div1 h1 {
+        font-size: 60px;
+        transform: translateX(150px);
+    }
+
+    .sixth .div1 h4 {
+        font-size: 20px;
+        transform: translateX(150px);
+    }
+
+    .sixth {
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sixth .div {
+        left: 200px;
+    }
+
+    .sixth .div img {
+        width: 50%;
+        transform: translateY(-20px);
+    }
+
+    .sixth .div1 h1 {
+        font-size: 50px;
+        transform: translateX(150px);
+    }
+
+    .sixth .div1 h4 {
+        font-size: 20px;
+        transform: translateX(100px);
+    }
+
+    .sixth {
+        height: 650px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .sixth .div {
+        left: 200px;
+    }
+
+    .sixth .div img {
+        width: 50%;
+        transform: translateY(-20px);
+    }
+
+    .sixth .div1 h1 {
+        font-size: 50px;
+        transform: translateX(150px);
+    }
+
+    .sixth .div1 h4 {
+        font-size: 20px;
+        transform: translateX(100px);
+    }
+
+    .sixth {
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sixth .div {
+        left: 100px;
+    }
+
+    .sixth .div img {
+        width: 40%;
+        transform: translateY(-10px);
+    }
+
+    .sixth .div1 h1 {
+        font-size: 35px;
+        transform: translateX(100px);
+    }
+
+    .sixth .div1 h4 {
+        font-size: 15px;
+        transform: translateX(50px);
+    }
+
+    .sixth {
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .sixth .div {
+        left: 90px;
+    }
+
+    .sixth .div img {
+        transform: translateY(-15px);
+    }
+
+    .sixth .div1 h1 {
+        padding-top: 3rem;
+        font-size: 25px;
+        transform: translateX(70px);
+    }
+
+    .sixth .div1 h4 {
+        transform: translateX(30px);
+    }
+
+    .sixth {
+        height: 325px;
+        padding-top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .sixth .div1 h4 {
+        transform: translateX(0px);
+    }
+}

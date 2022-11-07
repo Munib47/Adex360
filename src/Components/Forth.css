@@ -1,0 +1,131 @@
+.container4 {
+    padding-top: 10rem;
+}
+
+.container4 .content,
+.container4 .audienceTest,
+.container4 .result,
+.container4 .anounce,
+.container4 .bigresult {
+    width: 100px;
+}
+
+.adexLogo {
+    width: 150px;
+}
+
+.div1 {
+    height: 200px;
+    margin-bottom: 5rem;
+}
+
+.div1 .text {
+    padding-bottom: 1.2rem;
+    /* margin-left: 3rem; */
+}
+
+.lastText {
+    color: orange;
+}
+
+.div3 {
+    height: 300px;
+    margin-bottom: 10rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container4 {
+        padding-top: 0;
+        width: 80%;
+    }
+
+    .container4 .div3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container4 .div3 .child2 {
+        order: 1;
+    }
+
+    .container4 .div3 .child1 {
+        order: 2;
+    }
+
+    .container4 .div3 .child3 {
+        order: 3;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container4 .div1 .arrow {
+        padding-left: 0;
+        width: 80%;
+    }
+
+    .div1 .text {
+        padding-bottom: 0;
+        padding-left: 2.2rem;
+        font-size: 17px;
+    }
+
+    .container4 .div1 .adex {
+        transform: translateY(-21px);
+    }
+
+    .container4 .div1 .adex .adexLogo {
+        transform: translateX(-16px);
+    }
+
+    .container4 .div3 .child2 {
+        padding-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .div1 .text {
+        padding-left: 1.7rem;
+        font-size: 15px;
+    }
+
+    .container4 .div1 .adex {
+        transform: translateY(-11px);
+    }
+
+    .container4 .div1 .adex .adexLogo {
+        width: 100px;
+    }
+
+    .container4 .div3 .child2 {
+        padding-bottom: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .container4 .div1 .adex {
+        transform: translateY(7px);
+    }
+
+    .container4 .div3 .child2 .child23 {
+        margin-top: 7rem;
+    }
+
+    .container4 .div33 {
+        margin-bottom: 0;
+    }
+
+    .container4 .div34 {
+        margin-top: 4rem;
+    }
+
+    .container4 .content,
+    .container4 .audienceTest,
+    .container4 .result,
+    .container4 .anounce,
+    .container4 .bigresult {
+        width: 70px;
+    }
+}
